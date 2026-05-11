@@ -1,0 +1,105 @@
+{
+  "brand_id": "cdl-agency",
+  "display_name": "CDL Agency",
+  "domain": "cdlagency.com",
+  "output_orientation": "vertical_9_16",
+  "tone": "Alex Hormozi / Bobby Loads — direct, confident, value-driven, short sentences, no corporate fluff",
+
+  "voice": {
+    "provider": "elevenlabs",
+    "voice_id": "6OzrBCQf8cjERkYgzSg8",
+    "voice_name": "Young Jamal",
+    "model_id": "eleven_multilingual_v2",
+    "settings": {
+      "stability": 0.5,
+      "similarity_boost": 0.8,
+      "style": 0.4,
+      "use_speaker_boost": true
+    }
+  },
+
+  "avatar": {
+    "provider": "heygen",
+    "talking_photo_id": "54b1e308527b4d56b2ef0824a12ce628",
+    "style": {
+      "talking_photo_style": "square",
+      "talking_style": "expressive",
+      "expression": "happy"
+    },
+    "dimension": {"width": 1440, "height": 2560}
+  },
+
+  "scripts": {
+    "default": "Hey drivers. <break time=\"400ms\"/>Tired of low pay and bad dispatchers? <break time=\"400ms\"/>We're hiring CDL A. <break time=\"300ms\"/>2 years experience, clean record, no DUI, no SAP. <break time=\"400ms\"/>Paid weekly, real home time. <break time=\"400ms\"/>Click the link below to get hired fast.",
+
+    "recruiting_basic": "Hey drivers. <break time=\"400ms\"/>Tired of low pay and bad dispatchers? <break time=\"400ms\"/>We're hiring CDL A. <break time=\"300ms\"/>2 years experience, clean record, no DUI, no SAP. <break time=\"400ms\"/>Paid weekly, real home time. <break time=\"400ms\"/>Click the link below to get hired fast.",
+
+    "market_turning": "The freight recession is over. <break time=\"400ms\"/>For the first time since 2023, <break time=\"200ms\"/>the market is in your favor. <break time=\"400ms\"/>Spot rates are climbing. <break time=\"300ms\"/>Flatbed is up 13 percent from last year. <break time=\"400ms\"/>Reefer load-to-truck ratios hit 26 to 1. <break time=\"300ms\"/>That's pandemic-level demand. <break time=\"400ms\"/>Carriers are fighting for trucks. <break time=\"400ms\"/>Don't get left behind. <break time=\"300ms\"/>This is the time to make your move.",
+
+    "cpm_scam": "Stop letting them pay you by the mile. <break time=\"400ms\"/>It's a scam. <break time=\"400ms\"/>When freight rates go up, <break time=\"200ms\"/>your CPM stays the same. <break time=\"300ms\"/>The carrier keeps the extra cash. <break time=\"300ms\"/>You don't see a dime of it. <break time=\"400ms\"/>In a rising market, <break time=\"200ms\"/>you want percentage of gross. <break time=\"300ms\"/>When the carrier makes more money, <break time=\"200ms\"/>you make more money. <break time=\"400ms\"/>Know the difference. <break time=\"300ms\"/>Demand your share.",
+
+    "recruiter_free": "Your next recruiter is free. <break time=\"400ms\"/>Here's how you know if a carrier is serious about hiring you. <break time=\"400ms\"/>Ask them if they paid for your application. <break time=\"400ms\"/>Most carriers use recruiters who get paid to send stacks of resumes. <break time=\"300ms\"/>They have no skin in the game. <break time=\"400ms\"/>But some carriers use pay-per-driver agencies. <break time=\"300ms\"/>They only pay AFTER you're hired and in the truck. <break time=\"400ms\"/>That means they're invested in you from day one. <break time=\"300ms\"/>Work with people who have skin in the game.",
+
+    "reefer_squeeze": "This is the hottest freight in America right now. <break time=\"300ms\"/>Reefer. <break time=\"400ms\"/>Rates are pushing 3 dollars a mile. <break time=\"300ms\"/>Why? <break time=\"400ms\"/>Winter storms forced regular freight into temperature-controlled trucks. <break time=\"400ms\"/>Then Valentine's Day hit. <break time=\"300ms\"/>Over 4,000 loads of flowers came out of Miami in two weeks. <break time=\"400ms\"/>The load-to-truck ratio exploded. <break time=\"400ms\"/>If you're pulling a reefer, <break time=\"200ms\"/>you should be printing money. <break time=\"300ms\"/>If you're not, <break time=\"200ms\"/>you're leaving cash on the table.",
+
+    "dont_go_broke": "A lot of owner-operators are about to go broke. <break time=\"300ms\"/>Sounds crazy, right? <break time=\"400ms\"/>The market is finally turning. <break time=\"400ms\"/>But after a long recession, <break time=\"200ms\"/>guys get desperate. <break time=\"300ms\"/>They see rates go up <break time=\"200ms\"/>and they run out and buy a brand new rig. <break time=\"400ms\"/>They take on massive debt. <break time=\"300ms\"/>One bad breakdown and they're done. <break time=\"400ms\"/>Don't be that guy. <break time=\"300ms\"/>Stack cash. <break time=\"300ms\"/>Build your maintenance fund. <break time=\"300ms\"/>Fix your current truck. <break time=\"400ms\"/>Profit now, buy new toys later."
+  },
+
+  "broll": {
+    "provider": "fal",
+    "model_priority": [
+      "fal-ai/kling-video/v2.5-turbo/pro/text-to-video",
+      "fal-ai/hailuo-02/standard/text-to-video",
+      "fal-ai/ltx-video-13b-dev"
+    ],
+    "count": 2,
+    "duration_sec": 3.0,
+    "insert_points_sec": [2.0, 6.5],
+    "prompts": [
+      "cinematic wide shot of a white Freightliner Cascadia semi truck driving on American interstate highway at golden hour, dashboard mounted camera angle, soft sun flare, photorealistic",
+      "aerial drone shot panning over a trucking company terminal yard with rows of parked Western Star and Freightliner semi trucks, wide open sky, documentary realism, early morning light"
+    ],
+    "content_rules": [
+      "NEVER include shipping containers, water, ports, or freight ships",
+      "ALWAYS OTR trucking (Over The Road) context",
+      "Freightliner Cascadia, Western Star, Peterbilt, Kenworth preferred",
+      "Real American highways (interstate), terminals, truck stops",
+      "Photorealistic / documentary style, not cartoonish"
+    ]
+  },
+
+  "captions": {
+    "mode": "one_word",
+    "font": "Arial",
+    "font_size": 92,
+    "color": "#FFFFFF",
+    "outline_px": 0,
+    "shadow_px": 0,
+    "position": "above_center",
+    "margin_v_from_bottom_px": 750,
+    "uppercase": true,
+    "strip_trailing_punct": true
+  },
+
+  "music": {
+    "provider": "fal",
+    "model": "fal-ai/stable-audio-25/text-to-audio",
+    "prompt": "dark trap beat, hard 808 bass, tight hi-hats, cinematic for a trucking ad, instrumental, no vocals, moody confident",
+    "volume": 0.15,
+    "never_speed_up": true
+  },
+
+  "video": {
+    "speed": 1.10,
+    "output_dimension": {"width": 1080, "height": 1920},
+    "output_fps": 30,
+    "output_crf": 18
+  },
+
+  "last_updated": "2026-04-23",
+  "notes": [
+    "Script variants come from knowledge/scripts/viral_scripts.md — Bobby Loads / Hormozi style",
+    "ugc_pipeline.py should read this JSON and pick a script by key (default = 'default', else env UGC_SCRIPT_KEY)",
+    "HeyGen avatars: 11 were reduced to 2 (CDL + Beauty Autopilot); don't fumble looking for others"
+  ]
+}
