@@ -1,0 +1,50 @@
+{
+  "brand": "Rogue Carrier",
+  "avatar_name": "Guysas",
+  "heygen_avatars": {
+    "guysas_final_podcast": {
+      "look_id": "3e346195486f4bf9acec6b5cbbb1a7d1",
+      "group_id": "382c5fccf95643fab1945d4a7c0ebf09",
+      "description": "Locked face - podcast studio with Rogue Carrier shirt",
+      "status": "ready"
+    },
+    "guysas_jre_rogue": {
+      "look_id": "a1ec64296bdf4456b196a6bd24262902",
+      "group_id": "5bd46c7433a84381be355c182881297e",
+      "description": "JRE style podcast chair, Rogue Carrier logo on shirt",
+      "status": "ready",
+      "video_generated": true
+    },
+    "guysas_truck_cab": {
+      "look_id": "4c18912ff53a4fa3b52d8b6d41576f12",
+      "group_id": "573e9f6b494347c48b5f5e52bbf114c7",
+      "description": "Same face, sitting inside semi truck cab, side angle",
+      "status": "ready, needs credits"
+    },
+    "guysas_truck_yard": {
+      "look_id": "611d9996f05f4c4c8e1a7212157c47e5",
+      "group_id": "9a6d1f5af41b455f8a238ac5f0523183",
+      "description": "Same face, standing at truck yard, three quarter body",
+      "status": "ready, needs credits"
+    },
+    "guysas_office": {
+      "look_id": "4e7eaed761f34286af19f6fb2681aa07",
+      "group_id": "03ccc0d2ce2842eeadef41b8c424657d",
+      "description": "Same face, office desk, left side angle",
+      "status": "ready, needs credits"
+    }
+  },
+  "voice": {
+    "name": "Tough Timothy",
+    "voice_id": "8f8f8978a6454b03bebc6afa6b78c97b",
+    "description": "Tough, masculine, no-nonsense"
+  },
+  "logo_asset_id": "1b8b568618f5440a9983b1f3442299b8",
+  "training_video_asset_id": "4f378fb053ec4d5f8dcbc9a7b2860d89",
+  "face_reference_asset_id": "50c4a241d7574069b7cf119bc00ba3fd",
+  "notes": {
+    "digital_twin": "Failed - needs clean 2-3 min training video of person looking at camera",
+    "face_consistency": "Using Fal PuLID for same-face multi-angle generation",
+    "logo_overlay": "Done via VPS ffmpeg, Rogue logo top-left corner"
+  }
+}
