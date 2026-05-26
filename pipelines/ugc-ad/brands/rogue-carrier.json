@@ -1,0 +1,89 @@
+{
+  "brand_id": "rogue-carrier",
+  "display_name": "Rogue Carrier Inc",
+  "domain": "roguecarrierinc.com",
+  "phone": "+1 (312) 242-3535",
+  "output_orientation": "vertical_9_16",
+  "tone": "Bobby Loads / Hormozi — direct, confident, money-focused, short punchy sentences, blue-collar respect",
+
+  "voice": {
+    "provider": "elevenlabs",
+    "voice_id": "6OzrBCQf8cjERkYgzSg8",
+    "voice_name": "Young Jamal",
+    "model_id": "eleven_multilingual_v2",
+    "settings": {
+      "stability": 0.5,
+      "similarity_boost": 0.8,
+      "style": 0.4,
+      "use_speaker_boost": true
+    }
+  },
+
+  "offer": {
+    "position": "OTR Company Driver",
+    "pay_cpm": "70 CPM + 5 CPM safety bonus",
+    "pay_percentage": "30% to 33% of gross (driver's choice)",
+    "weekly_pay": "$2,200 to $3,000",
+    "weekly_miles": "3,500+",
+    "payment": "Weekly direct deposits, all miles paid loaded & empty",
+    "extras": "Extra stops, detentions & layovers paid. Cash advance up to $250/week",
+    "position_type": "1099",
+    "requirements": "Min 2 years CDL-A, no SAP, no DUI/DWI, clean Clearinghouse, clean drug test, LLC required",
+    "equipment": "Freightliner, International, Volvo & Peterbilt. Automatic. APU, fridge, microwave, inverter",
+    "fuel": "Fuel cards Pilot & Flying J, toll passes provided",
+    "home_time": "3 weeks out = 3 days off, 4 weeks = 4 days off, +1 day per extra week",
+    "freight": "Dry Van — Ashley Furniture, Shiba Account, UPS Mail. All 48 states",
+    "orientation": "Flights, transport & hotel paid. $250/week escrow for 10 weeks",
+    "pets": "Allowed",
+    "passengers": "Policy available"
+  },
+
+  "broll": {
+    "provider": "fal",
+    "model_priority": [
+      "fal-ai/kling-video/v2.5-turbo/pro/text-to-video"
+    ],
+    "content_rules": [
+      "NEVER include shipping containers, water, ports, or freight ships",
+      "ALWAYS OTR trucking context — American interstates, truck stops, terminals",
+      "Freightliner, International, Volvo, Peterbilt preferred",
+      "Dry van trailers ONLY — no flatbed, no reefer, no tanker",
+      "Photorealistic / documentary style, not cartoonish"
+    ]
+  },
+
+  "captions": {
+    "mode": "one_word",
+    "font": "Arial Black",
+    "font_size": 140,
+    "color": "#FFFFFF",
+    "outline_px": 0,
+    "shadow_px": 0,
+    "position": "above_center",
+    "margin_v_from_bottom_px": 750,
+    "uppercase": true,
+    "strip_trailing_punct": true
+  },
+
+  "music": {
+    "provider": "fal",
+    "model": "fal-ai/stable-audio-25/text-to-audio",
+    "prompt": "dark trap beat, hard 808 bass, tight hi-hats, cinematic trucking ad, instrumental, no vocals, confident aggressive energy",
+    "volume": 0.15
+  },
+
+  "video": {
+    "speed": 1.0,
+    "output_dimension": {"width": 1080, "height": 1920},
+    "output_fps": 30,
+    "output_crf": 18
+  },
+
+  "colors": {
+    "primary": "#C41E24",
+    "secondary": "#1A1A1A",
+    "accent": "#FFFFFF"
+  },
+
+  "last_updated": "2026-05-18"
+}
