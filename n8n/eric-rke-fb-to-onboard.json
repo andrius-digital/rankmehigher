@@ -1,0 +1,15 @@
+{
+  "workflow_id": "rJ4GDxFSgotfmNTb",
+  "name": "Eric RKE FB to Onboard",
+  "status": "active",
+  "webhook_url": "https://cdlagency.app.n8n.cloud/webhook/rke-eric-fb-leads",
+  "onboard_key": "whk_Af0FLapvI3pk_Ofksv0S2IX3-5a-29St8eVBvVIBdFU",
+  "source_tag": "Facebook - RKE Eric",
+  "field_mapping": {
+    "CDL-A License": "Do you have a valid Class A CDL?",
+    "OTR Experience": "How many months of tractor trailer experience do you have?",
+    "Flatbed Experience": "Do you have any flatbed experience?",
+    "Are you on a SAP program?": "Are you actively on a SAP program?"
+  },
+  "notes_format": "CDL-A: {val} | OTR Exp: {val} | Flatbed Exp: {val} | SAP: {val}"
+}
