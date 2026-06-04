@@ -1,0 +1,127 @@
+{
+  "brand_id": "gsm-transport",
+  "display_name": "GSM Transport Co.",
+  "domain": "gsmtransport.com",
+  "output_orientation": "vertical_9_16",
+  "tone": "Direct, confident, value-driven — speak to owner operators like a peer who knows the pain points",
+
+  "videos": {
+    "guysas_avatar": {
+      "count": 3,
+      "avatar_source": "rogue-carrier-avatars.json",
+      "voice": {
+        "voice_id": "8f8f8978a6454b03bebc6afa6b78c97b",
+        "voice_name": "Tough Timothy"
+      },
+      "scripts": {
+        "v1_the_money": {
+          "look": "guysas_truck_cab",
+          "look_id": "4c18912ff53a4fa3b52d8b6d41576f12",
+          "group_id": "573e9f6b494347c48b5f5e52bbf114c7",
+          "angle": "The Money — $3,500-$6K/wk hook",
+          "ssml": "Owner operators are grossing three to six thousand dollars a week with us right now. <break time=\"500ms\"/>Not after probation. <break time=\"300ms\"/>Not after three months. <break time=\"300ms\"/>Week one. <break time=\"500ms\"/>At GSM Transport, you run local Monday through Friday, <break time=\"200ms\"/>weekends if you want them, <break time=\"200ms\"/>and you're home every night. <break time=\"400ms\"/>IFTA, tolls, and company chassis are on us. <break time=\"300ms\"/>You just drive and collect. <break time=\"500ms\"/>If that sounds like what you've been looking for, <break time=\"200ms\"/>we're hiring right now. <break time=\"400ms\"/>Click below and apply now. <break time=\"300ms\"/>The money is real."
+        },
+        "v2_home_daily": {
+          "look": "guysas_jre_rogue",
+          "look_id": "a1ec64296bdf4456b196a6bd24262902",
+          "group_id": "5bd46c7433a84381be355c182881297e",
+          "angle": "Home Daily — family/lifestyle hook",
+          "ssml": "When's the last time you had dinner with your family on a Tuesday night? <break time=\"500ms\"/>If you have to think about it, <break time=\"300ms\"/>you're running for the wrong carrier. <break time=\"500ms\"/>At GSM Transport, you run local Monday through Friday, <break time=\"200ms\"/>home every single night, <break time=\"200ms\"/>weekends are your choice. <break time=\"400ms\"/>Thirty-five hundred to six thousand a week <break time=\"200ms\"/>without sacrificing your life at home. <break time=\"400ms\"/>You don't have to choose between the money and your family anymore. <break time=\"500ms\"/>Click below and apply today. <break time=\"300ms\"/>Come home every night."
+        },
+        "v3_deduction_scam": {
+          "look": "guysas_truck_yard",
+          "look_id": "611d9996f05f4c4c8e1a7212157c47e5",
+          "group_id": "9a6d1f5af41b455f8a238ac5f0523183",
+          "angle": "Deduction Scam — keep your money",
+          "ssml": "Your carrier is charging you for things that should be free. <break time=\"500ms\"/>By the time you settle, <break time=\"200ms\"/>half your money is gone to tolls, IFTA, and chassis fees. <break time=\"500ms\"/>At GSM Transport, all of that is covered. <break time=\"300ms\"/>You run local, home every night, Monday through Friday. <break time=\"400ms\"/>Three to six thousand a week <break time=\"200ms\"/>and you actually keep it. <break time=\"500ms\"/>If you're done watching your money disappear, <break time=\"200ms\"/>we've got a spot for you. <break time=\"400ms\"/>Click below and apply now. <break time=\"300ms\"/>Your settlement should match your effort."
+        }
+      }
+    },
+    "cdl_avatar": {
+      "count": 3,
+      "avatar_source": "cdl-agency.json",
+      "talking_photo_id": "54b1e308527b4d56b2ef0824a12ce628",
+      "voice": {
+        "provider": "elevenlabs",
+        "voice_id": "6OzrBCQf8cjERkYgzSg8",
+        "voice_name": "Young Jamal",
+        "model_id": "eleven_multilingual_v2"
+      },
+      "scripts": {
+        "v4_drop_and_hook": {
+          "angle": "Drop & Hook — simplicity hook",
+          "ssml": "No tarps. <break time=\"300ms\"/>No lumpers. <break time=\"300ms\"/>No touch freight. <break time=\"300ms\"/>Just container, chassis, and go. <break time=\"500ms\"/>If you're still dealing with live loads, <break time=\"200ms\"/>you're throwing away hours at every stop. <break time=\"500ms\"/>At GSM Transport, it's intermodal drop and hook <break time=\"200ms\"/>within two hundred miles of Chicago. <break time=\"400ms\"/>Monday through Friday, weekends optional, home every night. <break time=\"400ms\"/>Our operators gross thirty-five hundred to six thousand dollars a week <break time=\"200ms\"/>just moving boxes. <break time=\"500ms\"/>If you want a simpler way to make real money, <break time=\"200ms\"/>this is it. <break time=\"400ms\"/>Click below and apply today. <break time=\"300ms\"/>Spend your time driving, not waiting."
+        },
+        "v5_500_bonus": {
+          "angle": "$500 Clean Inspection Bonus hook",
+          "ssml": "You just passed a DOT inspection with a clean truck. <break time=\"400ms\"/>Where's your bonus? <break time=\"500ms\"/>Your current carrier doesn't notice <break time=\"200ms\"/>and doesn't pay you for it. <break time=\"500ms\"/>At GSM Transport, we hand you five hundred dollars <break time=\"200ms\"/>every time you pass clean on our regional lanes. <break time=\"400ms\"/>That's on top of grossing thirty-five hundred to six thousand dollars a week <break time=\"200ms\"/>with safety bonuses stacked in. <break time=\"500ms\"/>If that sounds like you, <break time=\"200ms\"/>we want you on the team. <break time=\"400ms\"/>Click below and apply now. <break time=\"300ms\"/>Get paid for running a clean truck."
+        },
+        "v6_year_round": {
+          "angle": "Year-Round Work — no slow season",
+          "ssml": "January hit and your freight dried up. <break time=\"400ms\"/>Welcome to the slow season. <break time=\"500ms\"/>Seasonal freight will leave you broke three months out of the year. <break time=\"500ms\"/>At GSM Transport, we move intermodal containers across the Midwest year-round <break time=\"200ms\"/>out of every major Chicago rail ramp. <break time=\"400ms\"/>Our operators gross thirty-five hundred to six thousand dollars a week <break time=\"200ms\"/>all year long. <break time=\"300ms\"/>There is no slow season here. <break time=\"500ms\"/>If you're tired of watching the phone go quiet, <break time=\"200ms\"/>we're always moving. <break time=\"400ms\"/>Click below and apply now. <break time=\"300ms\"/>Work every week, get paid every Friday."
+        }
+      }
+    }
+  },
+
+  "logo": {
+    "file": "gsm-transport-logo.png",
+    "overlay_position": "top-left",
+    "overlay_scale": 200,
+    "notes": "Logo needs to be uploaded to HeyGen as asset and saved to VPS for ffmpeg overlay"
+  },
+
+  "broll": {
+    "provider": "fal",
+    "model_priority": [
+      "fal-ai/kling-video/v2.5-turbo/pro/text-to-video",
+      "fal-ai/hailuo-02/standard/text-to-video"
+    ],
+    "count": 2,
+    "duration_sec": 3.0,
+    "prompts": [
+      "cinematic wide shot of intermodal container chassis being pulled by a red Freightliner Cascadia on Illinois interstate, golden hour, photorealistic",
+      "aerial drone shot of Chicago intermodal rail yard with stacked 20ft and 40ft shipping containers, BNSF locomotives in background, early morning light, documentary realism"
+    ],
+    "content_rules": [
+      "Intermodal containers (20ft/40ft) on chassis — this is NOT OTR dry van",
+      "Chicago-area highways, rail yards, container yards",
+      "Freightliner, Peterbilt, Kenworth day cabs preferred",
+      "Photorealistic / documentary style"
+    ]
+  },
+
+  "captions": {
+    "mode": "one_word",
+    "font": "Arial",
+    "font_size": 92,
+    "color": "#FFFFFF",
+    "outline_px": 0,
+    "shadow_px": 0,
+    "position": "above_center",
+    "margin_v_from_bottom_px": 750,
+    "uppercase": true,
+    "strip_trailing_punct": true
+  },
+
+  "music": {
+    "provider": "fal",
+    "model": "fal-ai/stable-audio-25/text-to-audio",
+    "prompt": "dark trap beat, hard 808 bass, tight hi-hats, cinematic trucking ad, instrumental, no vocals, confident energy",
+    "volume": 0.15
+  },
+
+  "video": {
+    "speed": 1.10,
+    "output_dimension": {"width": 1080, "height": 1920},
+    "output_fps": 30,
+    "output_crf": 18
+  },
+
+  "recruiters": {
+    "edita": "(630) 729-4884",
+    "sal": "(630) 544-8704"
+  },
+
+  "last_updated": "2026-06-02"
+}
